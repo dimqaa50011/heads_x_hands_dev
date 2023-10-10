@@ -3,13 +3,9 @@ package battlefield;
 import creatures.Creatures;
 
 public class Battlefield {
-    Creatures player;
-    Creatures monster;
     int[] cube;
 
     public Battlefield(Creatures player, Creatures monster) {
-        this.player = player;
-        this.monster = monster;
         this.cube = new int[]{1, 2, 3, 4, 5, 6,};
     }
 
