@@ -5,7 +5,7 @@ import creatures.Creatures;
 public class Battlefield {
     int[] cube;
 
-    public Battlefield(Creatures player, Creatures monster) {
+    public Battlefield() {
         this.cube = new int[]{1, 2, 3, 4, 5, 6,};
     }
 
